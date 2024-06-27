@@ -160,6 +160,7 @@ class ProductItemDetails extends Component {
                 <hr className="horizontal-line" />
                 <div className="quantity-container">
                   <button
+                    label="text"
                     type="button"
                     className="quantity-controller-button"
                     onClick={this.onDecrementQuantity}
@@ -169,6 +170,7 @@ class ProductItemDetails extends Component {
                   </button>
                   <p className="quantity">{quantity}</p>
                   <button
+                    label="text"
                     type="button"
                     className="quantity-controller-button"
                     onClick={this.onIncrementQuantity}
